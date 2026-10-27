@@ -6,3 +6,7 @@
 
 # 3. Non ignorare tutto ciò che si trova dentro quella cartella (inclusi i file e le sottocartelle)
 !/allievi/**/*
+
+# 4. Ad eccezione delle seguenti cartelle
+.ipynb_checkpoints
+/test/
