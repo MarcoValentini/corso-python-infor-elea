@@ -1,8 +1,9 @@
-import math
-numero = 3.3
-parte_decimale = numero - math.floor(numero)
-arrotondamento = math.ceil(numero) if parte_decimale >= 0.5 else math.floor(numero)
-print(arrotondamento)
+# import math
+# numero = 3.3
+# parte_decimale = numero - math.floor(numero)
+# arrotondamento = math.ceil(numero) if parte_decimale >= 0.5 else math.floor(numero)
+# print(arrotondamento)
+# print(round(numero))
 
 # risposta = input("Scrivi la tua risposta: ")
 # print(type(risposta))
