@@ -21,6 +21,7 @@ prodotti.insert(0, prodotto3)
 print(prodotti)
 
 richiesta = "Seleziona un prodotto da rimuovere dalla lista: "
+# la costruzione delle etichette di testo per i prodotti nella lista della spesa si può fare in vari modi, tra cui usando enumerate()
 for prodotto in prodotti:
     richiesta += "[" + str(prodotti.index(prodotto)) + "] " + prodotto + " "
 indice_prodotto = int(input(richiesta))
