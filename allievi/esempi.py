@@ -42,3 +42,11 @@ import random
 #     elif i.isalpha():
 #         consonanti += 1
 # print(vocali, consonanti)
+
+# import pandas as pd
+# df = pd.DataFrame({
+#     "prodotto": ["A", "B", "C", "D"],
+#     "prezzo": [10, 25, 8, 40]
+# })
+# df["fascia"] = ["economico" if p < 20 else "standard" for p in df["prezzo"]]
+# print(df)
